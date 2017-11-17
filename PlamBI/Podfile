@@ -1,0 +1,18 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'PlamBI' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for PlamBI
+
+  target 'PlamBIUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+pod 'Alamofire', '~> 4.5'
+pod 'JZNavigationExtension',      '1.5.0.1'   #源码下载地址:https://github.com/JazysYu/JZNavigationExtension.git
+
+end
