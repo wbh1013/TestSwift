@@ -103,33 +103,12 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		4603271A1FBD5B7000247D2B /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		4603271D1FBD5C3400247D2B /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
 				4603271E1FBD5C3400247D2B /* WBHHealthPlatformController.swift */,
 			);
 			path = ViewController;
-			sourceTree = "<group>";
-		};
-		4603271F1FBD5C3400247D2B /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		460327201FBD5C3400247D2B /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		460327231FBD5D0C00247D2B /* ViewController */ = {
@@ -140,14 +119,35 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		460327241FBD5D1F00247D2B /* Model */ = {
+		46B48DE91FBE8A8800046D9C /* Model */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		460327251FBD5D1F00247D2B /* View */ = {
+		46B48DEA1FBE8AAE00046D9C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		46B48DEB1FBE8AAE00046D9C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		46B48DEC1FBE8AC500046D9C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		46B48DED1FBE8AC500046D9C /* View */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -247,8 +247,8 @@
 			isa = PBXGroup;
 			children = (
 				4603271D1FBD5C3400247D2B /* ViewController */,
-				460327201FBD5C3400247D2B /* View */,
-				4603271F1FBD5C3400247D2B /* Model */,
+				46B48DEB1FBE8AAE00046D9C /* View */,
+				46B48DEA1FBE8AAE00046D9C /* Model */,
 			);
 			path = HealthPlatform;
 			sourceTree = "<group>";
@@ -256,9 +256,9 @@
 		46C9E6D01F5FA35D001F3B74 /* NetHospital */ = {
 			isa = PBXGroup;
 			children = (
+				46B48DE91FBE8A8800046D9C /* Model */,
 				460327161FBD5B7000247D2B /* ViewController */,
 				460327191FBD5B7000247D2B /* View */,
-				4603271A1FBD5B7000247D2B /* Model */,
 			);
 			path = NetHospital;
 			sourceTree = "<group>";
@@ -267,8 +267,8 @@
 			isa = PBXGroup;
 			children = (
 				460327231FBD5D0C00247D2B /* ViewController */,
-				460327251FBD5D1F00247D2B /* View */,
-				460327241FBD5D1F00247D2B /* Model */,
+				46B48DED1FBE8AC500046D9C /* View */,
+				46B48DEC1FBE8AC500046D9C /* Model */,
 			);
 			path = Setting;
 			sourceTree = "<group>";
